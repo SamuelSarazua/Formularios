@@ -6,9 +6,11 @@ div_formularios.className = "div-formularios";
 //Lista de datos (String)
 let formularios =[
     {nombre:"Login", link:"componentes/Login/login.html"},
-    {nombre:"Login", link:"htttps"},
-    {nombre:"Login", link:"htttps"},
-    {nombre:"Login", link:"htttps"}
+    {nombre:"Formulario de Contacto", link:"componentes/formularioDeContacto/formularioDeContacto.html"},
+    {nombre:"Formulario de Registro", link:"componentes/formularioDeRegistro/formularioDeRegistro.html"},
+    {nombre:"Formulario De Busqueda", link:"componentes/formularioDeBusqueda/formularioDeBusqueda.html"},
+    {nombre:"Formulario De Pedido de Compras", link:"componentes/formularioDePedidoCompra/formularioDePedidoCompra.html"},
+    {nombre:"Formulario De Comentarios y Reseñas", link:"componentes/formularioDeComentariosReseñas/formularioDeComentariosReseñas.html"}
 ];
 
 //ForEach (for)
