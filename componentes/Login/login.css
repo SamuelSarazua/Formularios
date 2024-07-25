@@ -1,1 +1,84 @@
-.
+.box-login {
+    width: 240rem;
+    max-width: 150rem;
+    height: 70rem;
+    margin: auto;
+    margin-top: 7%;
+    border: 1px solid black;
+
+    display: grid;
+    grid-template-columns: 75rem auto;
+}
+
+.box-login .formulario {
+    height: 100%;
+    padding: 10rem 15rem;
+
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    gap: 1rem;
+}
+
+.box-login .logo {
+    font-size: 2rem;
+    grid-column: 1/9;
+    padding: 1rem 0;
+}
+
+.box-login h2 {
+    font-weight: 300;
+    font-size: 2rem;
+    grid-column: 1/9;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.box-login .btn-facebook {
+    width: 20.5rem;
+    height: 5rem;
+    grid-column: 1/4;
+    font-size: 1.3rem;
+
+    color: white;
+    background-color: rgb(58, 140, 248);
+    border-radius: 3px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-facebook img {
+    width: 3rem;
+    height: 3rem;
+    object-fit: cover;
+}
+
+.btn-xing img {
+    width: 3rem;
+    height: 3rem;
+    object-fit: cover;
+}
+
+.box-login .btn-xing {
+    width: 20.5rem;
+    height: 5rem;
+    grid-column: 5/8;
+    font-size: 1.3rem;
+
+    color: white;
+    background-color: rgb(14, 68, 0);
+    border-radius: 3px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-login span {
+    display: flex;
+    font-size: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    grid-column: 1/9;
+}
