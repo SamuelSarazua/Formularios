@@ -1,1 +1,8 @@
-.
+.box-contacto {
+    width: 240rem;
+    max-width: 150rem;
+    height: 70rem;
+    margin: auto;
+    margin-top: 5%;
+    border: 1px solid black;
+}
