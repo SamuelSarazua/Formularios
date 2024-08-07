@@ -1,1 +1,120 @@
-.
+.box-busqueda{
+    width: 100%;
+    max-width: 150rem;
+    height: 70rem;
+    margin: auto;
+    margin-top: 3%;
+    border: 1px solid black;
+    padding: 30px 80px;
+
+    display: flex;
+    justify-content: space-between;
+    background-image: url("https://c.wallhere.com/photos/9a/18/Ferrari_Assetto_Corsa_racing_simulators-2252718.jpg!d");
+}
+
+.box-busqueda .logo-busqueda{
+    width: 700px;
+    height: 650px;
+
+    display: flex;
+
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.logo-busqueda h1{
+    font-size: 7rem;
+    font-weight: 800;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.logo-busqueda h2{
+    font-size: 3rem;
+    font-weight: 700;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.box-busqueda .buscador{
+    width: 600px;
+    height: 60rem;
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 13rem;
+}
+
+.buscador .titulo-buscador {
+    width: 550px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo-buscador h1{
+    width: 550px;
+    font-size: 50px;
+    font-weight: 500;
+    color: white;
+    background-color: brown;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.titulo-buscador h2{
+    width: 550px;
+    font-size: 50px;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#search label{
+    display: flex;
+    align-items: center;
+
+}
+
+#search label input{
+    border: none;
+    outline: none;
+    width: 50rem;
+    height: 60px;
+    border-radius: 1rem;
+
+    font-size: 2.5rem;
+    color: gray;
+}
+
+#search label span{
+    font-size: 5rem;
+    color: white;
+}
+
+.box-busqueda .textofinal{
+    width: 300px;
+    height: 200px;
+}
+
+.textofinal h1{
+    font-size: 7rem;
+    color: white;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.textofinal h2{
+    font-size: 7rem;
+    text-align: center;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
